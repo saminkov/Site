@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Set a Goal</title>
+  <style>
+    body{
+      margin:0;
+      background-color: #393939;
+    }
+    #mainDiv{
+      margin: 80px 15% 0 15%;
+    }
+    #mainDiv p{
+      margin-left: 250px;
+      font-size: 18px;
+      color: #d64c28;
+      text-shadow: 2px 2px 4px black;
+    }
+    #formSetGoal{
+      margin: 40px 10% 0 25%;
+    }
+    .textField{
+      padding: 5px;
+      width: 80%;
+      margin: 5px 0 5px 0;
+      border: 3px solid #b0b0b0;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .textField:focus{
+      transition-duration: 0.2s;
+      transition-timing-function: ease-out;
+      box-shadow: 0 0 5px 3px #d64c28;
+    }
+    #submit{
+      width: 60%;
+      padding: 8px;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 20px;
+      border: 3px solid #b0b0b0;
+      border-radius: 8px;
+      background-color: #222222;
+      color: #d64c28;
+      margin:40px 0 0 10%;
+    }
+    #submit:hover{
+      cursor: pointer;
+    }
+    #submit:active{
+      color: #d6813e;
+    }
+  </style>
+</head>
+<body>
+<div class="header">
+  <ul class="headerUL">
+    <li><a href="MainPage.html">SET YOUR GOALS. ACHIEVE YOUR DREAMS</a></li>
+    <li style="float: right"><a href="Contact.html">Contact us</a></li>
+  </ul>
+</div>
+<div id="mainDiv">
+  <p>
+    Want to start following a new goal?<br>
+    Keep in mind that your goal should be SMART:<br>
+    S: Specific - Define precisely what you want to do<br>
+    M: Measurable - You should be able to measure how far you are from achieving your target<br>
+    A: Achievable - Dream big, but dream realistically<br>
+    R: Relevant - Make sure the goal is result-oriented<br>
+    T: Time-bound - Set a deadline<br>
+  </p>
+  <div id="formSetGoal">
+    <input type="text" class="textField" placeholder="Short description">
+    <input type="text" class="textField" placeholder="Can this goal be measured numerically? If yes, enter a number here">
+    <input type="text" class="textField" placeholder="Deadline DD/MM/YYYY">
+    <input type="submit" id="submit" value="Create Goal">
+  </div>
+</div>
+<div class="footer">
+  <ul>
+    <li class="TM">SYGAYD &#8482 2023</li>
+    <li class="quoteOfTheDay"> "For without victory, there is no survival" - W.Churchill</li>
+  </ul>
+</div>
+</body>
+</html>

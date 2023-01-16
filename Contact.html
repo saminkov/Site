@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body{
+      margin: 0;
+      background-color: #393939;
+    }
+    .mainDivContact{
+      position: relative;
+      margin-top: 20%;
+      margin-left: 75px;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 22px;
+      font-weight: bold;
+      color: #d64c28;
+
+    }
+    #email{
+      color: black;
+    }
+    #form{
+      margin: 5px;
+      width: 50%;
+      height: 200px;
+    }
+    #form:focus{
+      transition-duration: 0.2s;
+      transition-timing-function: ease-out;
+      box-shadow: 0 0 5px 2px #d64c28;
+    }
+    #submit{
+      width: 120px;
+      height: 40px;
+      border: 3px solid #b0b0b0;
+      font-family: "Times New Roman", Times, serif;
+      font-weight: bold;
+      font-size: 16px;
+      color: #d64c28;
+    }
+    #submit:hover{
+      cursor: pointer;
+      transition-duration: 0.1s;
+      transition-timing-function: ease-out;
+      background-color: #dcdcdc;
+
+    }
+    #submit:active{
+      transition-duration: 0.1s;
+      transition-timing-function: ease-out;
+      color: #d6813e;
+    }
+
+  </style>
+</head>
+<body>
+<div class="header">
+  <ul class="headerUL">
+    <li><a href="MainPage.html">SET YOUR GOALS. ACHIEVE YOUR DREAMS</a></li>
+    <li style="float: right"><a href="#">Contact us</a></li>
+  </ul>
+</div>
+<div class="mainDivContact">
+  Email us at <a href="#" id="email">sygayd@gmail.com</a>
+  <br>Or ask us a question here: <br>
+  <input type="text" id="form"> <br>
+  <input type="submit" id="submit" value="SUBMIT">
+</div>
+<div class="footer">
+  <ul>
+    <li class="TM">SYGAYD &#8482 2023</li>
+    <li class="quoteOfTheDay"> "For without victory, there is no survival" - W.Churchill</li>
+  </ul>
+</div>
+</body>
+</html>

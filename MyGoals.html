@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+    <title>My Goals</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: #393939;
+        }
+        li{
+            list-style-type:none;
+        }
+        .goalList{
+            margin: 0;
+        }
+        .goalList a{
+            display: block;
+            padding: 10px;
+
+            margin: 0 0 0 -40px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+
+        }
+        .goalList a{
+            background-color: #222222;
+            color: #d64c28;
+        }
+        .goalList a:hover{
+            transition-duration: 0.2s;
+            transition-timing-function: ease-out;
+            background-color: #d64c28;
+            color: #222222;
+        }
+
+        #goalsList{
+
+        }
+        #goalsMainDiv{
+            position: relative;
+            margin: 50px 15%;
+            box-shadow: 0 0 10px 5px black;
+            border-radius: 5px;
+        }
+        #setGoalDiv{
+            position: relative;
+            width: 100%;
+            margin-top: 80px;
+        }
+        #setGoal{
+            display: block;
+            width: 80%;
+            margin: 20px 10% 20px 10%;
+            padding: 10px;
+            font-family: "Times New Roman", Times, serif;
+            font-weight: bold;
+            font-size: 20px;
+            text-decoration: none;
+            text-align: center;
+            color: #d64c28;
+            background-color: #b0b0b0;
+            border: 4px solid black;
+            border-radius: 8px;
+        }
+        #setGoal:hover{
+            transition-duration: 0.2s;
+            transition-timing-function: ease-out;
+            box-shadow: 0 0 5px 2px ;
+            color: #d6813e;
+            background-color: #727272;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <ul class="headerUL">
+        <li><a href="MainPage.html">SET YOUR GOALS. ACHIEVE YOUR DREAMS</a></li>
+        <li style="float: right"><a href="Contact.html">Contact us</a></li>
+    </ul>
+</div>
+<div id="setGoalDiv">
+    <a href="SetGoal.html" id="setGoal">SET A NEW GOAL</a>
+</div>
+<div id="goalsMainDiv">
+    <ul id="goalsList">
+        <li class="goalList"><a href="Goal1.html">GOAL: Save 2000$, DL: 01/01/2024, PROGRESS: 33%</a></li>
+        <li class="goalList"><a href="">GOAL: Example Goal, DL: unknown, PROGRESS: NaN</a></li>
+        <li class="goalList"><a href="">GOAL: example Goal, DL: unknown, PROGRESS: NaN</a></li>
+    </ul>
+</div>
+<div class="footer">
+    <ul>
+        <li class="TM">SYGAYD &#8482 2023</li>
+        <li class="quoteOfTheDay"> "For without victory, there is no survival" - W.Churchill</li>
+    </ul>
+</div>
+</body>
+</html>

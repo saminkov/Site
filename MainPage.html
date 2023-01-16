@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        li {
+            list-style-type: none;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #393939;
+        }
+
+        .charts {
+            position: relative;
+            top: 50px;
+        }
+
+        .charts ul {
+            padding: 8%;
+        }
+
+        .charts li {
+            margin-left: 25px;
+            float: left;
+        }
+        .charts a{
+            margin-left: 300px;
+            text-decoration: none;
+            display: block;
+            height: 60px;
+            width: 600px;
+            padding: 5px;
+            text-align: center;
+            border-style: inset;
+            border-color: #b0b0b0;
+            border-radius: 10px;
+            font-family: "Lucida Console", "Courier New", monospace;
+            font-size: 25px;
+            color: #d64c28;
+            background-color: #525252;
+        }
+        .charts a:hover{
+            transition-duration: 0.3s;
+            transition-timing-function: ease-out;
+            border-color: #d6813e;
+            color: #d6813e;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <ul class="headerUL">
+        <li><a href="#">SET YOUR GOALS. ACHIEVE YOUR DREAMS</a></li>
+        <li style="float: right"><a href="Contact.html">Contact us</a></li>
+    </ul>
+</div>
+<div class="charts">
+    <div>
+        <ul>
+            <li>
+                <div id="chart1"></div>
+            </li>
+            <li><a href="MyGoals.html" style="height: 50px; padding-top: 15px">My Goals</a></li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li>
+                <div id="chart2"></div>
+            </li>
+            <li><a href="CompletedGoals.html">Accomplished Goals</a></li>
+        </ul>
+    </div>
+</div>
+<div class="footer">
+    <ul>
+        <li class="TM">SYGAYD &#8482 2023</li>
+        <li class="quoteOfTheDay"> "For without victory, there is no survival" - W.Churchill</li>
+    </ul>
+</div>
+</body>
+</html>

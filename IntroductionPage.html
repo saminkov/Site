@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #393939;
+            padding: 0;
+            margin: 0;
+        }
+
+        .headerDiv {
+            position: relative;
+            #color: white;
+            width: 100%;
+            height: 250px;
+        }
+
+        .imageDiv {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            top: 0;
+        }
+
+        .imageDiv img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+        .headerDiv p{
+            left: 25%;
+            color: #d64c28;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            font-variant: all-small-caps;
+            font-size: 20px;
+            text-shadow: 2px 2px 4px black;
+        }
+        li {
+            list-style-type: none;
+        }
+        .mainDiv{
+            box-shadow: 0 0 20px 10px black;
+            position: relative;
+            padding:30px;
+        }
+        .inputSignIn{
+            margin: 20px;
+            width: 300px;
+            height: 50px;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 5px;
+            border: 3px solid #b0b0b0;
+        }
+        .inputSignIn:focus{
+            transition-duration: 0.1s;
+            transition-timing-function: ease-out;
+            box-shadow: 0 0 5px 2px #d64c28;
+        }
+        .inputSubmit{
+            margin-top: 30px;
+            margin-left: 95px;
+            width: 150px;
+            height: 50px;
+            border: 2px solid #7e2f1a;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: "Times New Roman", Times, serif;
+            background-color: #393939;
+            color: #d64c28;
+        }
+        .inputSubmit:hover{
+            cursor: pointer;
+        }
+        .inputSubmit:active{
+            color: #d6813e;
+        }
+        .mainDiv h2{
+            margin-left: 25px;
+            color: #d64c28;
+            font-variant: all-small-caps;
+            font-size: 30px;
+        }
+        .signUp{
+            position: absolute;
+            bottom: 150px;
+            left: 600px;
+            color: #393939;
+        }
+        .signUp input{
+            width: 120px;
+            height: 40px;
+            border: 2px solid #393939;
+            border-radius: 5px;
+            background-color: #d64c28;
+            font-family: "Times New Roman", Times, serif;
+            font-size: 16px;
+            font-weight: bold;
+            color: #393939;
+
+        }
+        .signUp input:hover{
+            cursor: pointer;
+        }
+        .mainDivUl{
+            margin-left: 20%;
+            margin-right: 20%;
+            background-color: #b0b0b0;
+            position: relative;
+
+        }
+    </style>
+</head>
+<body>
+<div class="headerDiv">
+    <div class="imageDiv">
+        <img src="introductionbackground.jpg" alt="">
+    </div>
+    <p>
+        You want to see yourself in the hall of fame one day?<br>
+        Start the journey now by setting your goals, keeping track of them and measuring your progress!<br>
+        Sign up now and we will help you to become the best version of yourself!
+    </p>
+</div>
+<div class="mainDiv">
+    <ul class="mainDivUl">
+        <li>
+            <div>
+                <ul style="padding:20px;margin-left: 50px">
+                    <li><input class="inputSignIn" type="text" name="" id="username" placeholder="Email"></li>
+                    <li><input class="inputSignIn" type="text" name="" id="password" placeholder="Password"></li>
+                    <li><a href="MainPage.html"><input class="inputSubmit" type="submit" value="SIGN IN"></a></li>
+                    <li><a href="Help.html" style="color: #d64c28;margin-left: 100px">Problems signing in?</a>
+                </ul>
+            </div>
+        </li>
+        <li class="signUp">
+            <div>
+                No account?<br>
+                <a href="SignUpPage.html"><input type="button" value="SIGN UP"></a>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="footer">
+    <ul>
+        <li class="TM">SYGAYD &#8482 2023</li>
+        <li class="quoteOfTheDay"> "For without victory, there is no survival" - W.Churchill</li>
+    </ul>
+</div>
+</body>
+</html>

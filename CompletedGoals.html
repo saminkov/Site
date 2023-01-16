@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+
+  <title>AccomplishedGoals</title>
+  <style>
+    body{
+      margin: 0;
+      background-color: #393939;
+    }
+    li{
+      list-style-type:none;
+    }
+    .goalList{
+      margin: 0;
+    }
+    .goalList a{
+      display: block;
+      padding: 10px;
+
+      margin: 0 0 0 -40px;
+      text-decoration: none;
+      text-align: center;
+      font-weight: bold;
+
+    }
+    .goalList a{
+      background-color: #222222;
+      color: #d64c28;
+    }
+    .goalList a:hover{
+      transition-duration: 0.2s;
+      transition-timing-function: ease-out;
+      background-color: #d64c28;
+      color: #222222;
+    }
+
+    #goalsMainDiv{
+      position: relative;
+      margin: 50px 15%;
+      box-shadow: 0 0 10px 5px black;
+      border-radius: 5px;
+    }
+    #setGoalDiv{
+      position: relative;
+      width: 60%;
+      margin-top: 80px;
+      font-weight: bold;
+      font-size: 22px;
+      margin-left:40%;
+      color: #d6813e;
+    }
+
+  </style>
+</head>
+<body>
+<div class="header">
+  <ul class="headerUL">
+    <li><a href="MainPage.html">SET YOUR GOALS. ACHIEVE YOUR DREAMS</a></li>
+    <li style="float: right"><a href="Contact.html">Contact us</a></li>
+  </ul>
+</div>
+<div id="setGoalDiv">
+ You completed the following Goals:
+</div>
+<div id="goalsMainDiv">
+  <ul id="goalsList">
+    <li class="goalList"><a href="Goal2.html">GOAL: Save 500$, Completed on: 27/12/2022</a></li>
+    <li class="goalList"><a href="">GOAL: Example Goal, Completed on: unknown</a></li>
+    <li class="goalList"><a href="">GOAL: example Goal, Completed on: unknown</a></li>
+  </ul>
+</div>
+<div class="footer">
+  <ul>
+    <li class="TM">SYGAYD &#8482 2023</li>
+    <li class="quoteOfTheDay"> "For without victory, there is no survival" - W.Churchill</li>
+  </ul>
+</div>
+</body>
+</html>

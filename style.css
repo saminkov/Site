@@ -1,0 +1,56 @@
+.header{
+    background-color: black;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
+.headerUL{
+    margin: 0;
+    padding: 0;
+    #position: relative;
+
+}
+.headerUL li{
+    float: left;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+.headerUL a{
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    color: #d64c28;
+
+}
+.headerUL a:hover{
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+    color: #d6813e;
+    cursor: pointer;
+}
+.footer{
+    position: absolute;
+    top:100%;
+    width: 100%;
+    margin-top: 70px;
+    height: 30px;
+}
+.footer ul{
+    background-color: #222222;
+}
+.footer li{
+    padding: 5px;
+}
+.quoteOfTheDay{
+    font-family: "Courier New", monospace;
+    color: #d64c28;
+    float: left;
+}
+.TM{
+    color: #d6813e;
+    font-variant: all-small-caps;
+    font-size: 18px;
+    float: right;
+
+}

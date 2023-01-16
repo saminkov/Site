@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Help</title>
+    <style>
+        body {
+            background-color: #393939;
+            padding: 0;
+            margin: 0;
+        }
+
+        .headerDiv {
+            position: relative;
+            #color: white;
+            width: 100%;
+            height: 250px;
+        }
+
+        .imageDiv {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            top: 0;
+        }
+
+        .imageDiv img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        .headerDiv p {
+            left: 25%;
+            color: #d64c28;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            font-variant: all-small-caps;
+            font-size: 20px;
+            text-shadow: 2px 2px 4px black;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        .mainDiv {
+            box-shadow: 0 0 20px 10px black;
+            position: relative;
+            padding: 30px;
+        }
+
+        #email {
+            margin: 0 0 0 200px;
+            width: 300px;
+            height: 50px;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 5px;
+            border: 3px solid #b0b0b0;
+        }
+
+        #email:focus {
+            transition-duration: 0.1s;
+            transition-timing-function: ease-out;
+            box-shadow: 0 0 5px 2px #d64c28;
+        }
+
+        .inputSubmit {
+            margin-top: 15px;
+            margin-left: 230px;
+            width: 250px;
+            height: 50px;
+            border: 2px solid #7e2f1a;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 20px;
+            font-family: "Times New Roman", Times, serif;
+            background-color: #393939;
+            color: #d64c28;
+        }
+
+        .inputSubmit:hover {
+            cursor: pointer;
+        }
+
+        .inputSubmit:active {
+            color: #d6813e;
+        }
+
+        #paragraph {
+            font-size: 18px;
+            font-weight: bold;
+            #text-shadow: 2px 2px 10px black;
+            color: #222222;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+
+        .mainDivUl {
+            margin-left: 20%;
+            margin-right: 20%;
+            background-color: #b0b0b0;
+            position: relative;
+
+        }
+    </style>
+</head>
+<body>
+<div class="headerDiv">
+    <div class="imageDiv">
+        <img src="introductionbackground.jpg" alt="">
+    </div>
+    <p>
+        You want to see yourself in the hall of fame one day?<br>
+        Start the journey now by setting your goals, keeping track of them and measuring your progress!<br>
+        Sign up now and we will help you to become the best version of yourself!
+    </p>
+</div>
+<div class="mainDiv">
+    <ul class="mainDivUl">
+        <li>
+            <div>
+                <ul style="padding:20px;margin-left: 50px">
+                    <li id="paragraph">Forgot your password? It's not the end of the world!<br>Send us the email you are
+                        registered with and we will send you a new password
+                    </li>
+                    <li><input type="text" name="" id="email" placeholder="Email"></li>
+                    <li><a href="IntroductionPage.html"><input class="inputSubmit" type="submit"
+                                                               value="Send new password"></a></li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="footer">
+    <ul>
+        <li class="TM">SYGAYD &#8482 2023</li>
+        <li class="quoteOfTheDay"> "For without victory, there is no survival" - W.Churchill</li>
+    </ul>
+</div>
+</body>
+</html>

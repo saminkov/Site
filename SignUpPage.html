@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: #393939;
+            margin: 0;
+        }
+        li{
+            list-style-type: none;
+        }
+        .signUpHeader{
+            width: 100%;
+            padding:20px;
+            color: #d64c28;
+            background-color: black;
+            text-align: center;
+            box-shadow: 0 0 10px 10px #222222;
+        }
+        .mainDivUl{
+            margin:50px;
+        }
+        .mainDivUl input{
+            margin: 20px 20px 20px 35%;
+            width: 400px;
+            height: 40px;
+            text-align: center;
+            border: 2px solid #b0b0b0;
+            border-radius: 5px;
+        }
+        .mainDivUl input:focus{
+            transition-duration: 0.2s;
+            transition-timing-function: ease-out;
+            box-shadow: 0 0 5px 3px #d64c28;
+        }
+        #submit{
+            height: 60px;
+            width: 180px;
+            margin-left: 43%;
+            font-family: "Times New Roman", Times, serif;
+            font-weight: bold;
+            font-size: 18px;
+            border: 5px solid #b0b0b0;
+            color: #d64c28;
+        }
+        #submit:hover{
+            cursor: pointer;
+        }
+        #submit:active{
+            transition-duration: 0.1s;
+            transition-timing-function: ease-out;
+            color: #d6813e;
+        }
+    </style>
+</head>
+<body>
+<div class="signUpHeader">
+    SET YOUR GOALS. ACHIEVE YOUR DREAMS
+</div>
+<div>
+<ul class="mainDivUl">
+    <li><input type="text" placeholder="@Email address"></li>
+    <li><input type="text" placeholder="First Name"></li>
+    <li><input type="text" placeholder="Last Name"></li>
+    <li><input type="text" placeholder="Date of Birth DD/MM/YYYY"></li>
+    <li><input type="text" placeholder="Password"></li>
+    <li><input type="text" placeholder="Repeat Password"></li>
+    <li><a href="MainPage.html"><input type="submit" value="SIGN UP" id="submit"></a></li>
+</ul>
+</div>
+<div class="footer">
+    <ul>
+        <li class="TM">SYGAYD &#8482 2023</li>
+        <li class="quoteOfTheDay"> "For without victory, there is no survival" - W.Churchill</li>
+    </ul>
+</div>
+</body>
+</html>

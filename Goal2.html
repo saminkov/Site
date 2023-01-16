@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Accomplished Goal</title>
+  <style>
+    body{
+      margin: 0;
+      background-color: #393939;
+    }
+    li{
+      list-style-type: none;
+    }
+    #chartContainer{
+      margin-top: 80px;
+      color: #d64c28;
+
+    }
+    #chartContainer p{
+      font-size: 22px;
+      font-variant: all-small-caps;
+      margin-left: 40%;
+    }
+    #milestonesContainer{
+      position: relative;
+      margin:80px 15% 50px 15%;
+    }
+    #milestonesUl{
+      box-shadow: 0 0 5px 3px black;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    #milestonesUl li{
+      padding: 5px;
+      position: relative;
+      margin-left: -40px;
+      border-bottom: 1px solid black;
+    }
+    #milestonesUl li:last-child{
+      border-bottom: none;
+    }
+    #milestonesUl input{
+      font-weight: bold;
+      font-variant: all-small-caps;
+      background-color: #d64c28;
+      position: absolute;
+      height: 100%;
+      right: 0;
+      top: 0;
+    }
+    #milestonesUl input:hover{
+      cursor: pointer;
+    }
+    .completed{
+      background-color: #b0b0b0;
+      color: #d64c28;
+    }
+    .completed input{
+      opacity: 20%;
+    }
+  </style>
+  <script>
+    function complete(id){
+      var milestone = document.getElementById(id);
+      if (milestone.className === 'uncompleted') milestone.className = 'completed';
+      else milestone.className = 'uncompleted';
+    }
+    function showForm() {
+      document.getElementById('showButton').style.visibility = 'hidden';
+      document.getElementById('milestoneForm').style.visibility = 'visible';
+    }
+    function hideForm(){
+      document.getElementById('showButton').style.visibility = 'visible';
+      document.getElementById('milestoneForm').style.visibility = 'hidden';
+    }
+  </script>
+</head>
+<body>
+<div class="header">
+  <ul class="headerUL">
+    <li><a href="MainPage.html">SET YOUR GOALS. ACHIEVE YOUR DREAMS</a></li>
+    <li style="float: right"><a href="Contact.html">Contact us</a></li>
+  </ul>
+</div>
+<div id="chartContainer">
+  <div id="chart"></div>
+  <p>Completed on: 27/12/2022</p>
+</div>
+<div id="milestonesContainer">
+  <ul id="milestonesUl">
+    <li id="m1" class="completed">MILESTONE: Save 50$ </li>
+    <li id="m2" class="completed">MILESTONE: Save 200$ </li>
+    <li id="m3" class="completed">MILESTONE: Save 500$ </li>
+  </ul>
+</div>
+<div class="footer">
+  <ul>
+    <li class="TM">SYGAYD &#8482 2023</li>
+    <li class="quoteOfTheDay"> "For without victory, there is no survival" - W.Churchill</li>
+  </ul>
+</div>
+</body>
+</html>
